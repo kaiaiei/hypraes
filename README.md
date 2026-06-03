@@ -1,5 +1,5 @@
 # hypraes 
-Hypraes is a system that allows you to run a aesthethic group of applications at once in hyprland. (Short for Hypraesthethic and pronounced as Hypr-Ace)
+Hypraes is a tool that allows you to run a aesthethic group of applications at once in hyprland. (Short for Hypraesthethic and pronounced as Hypr-Ace)
 
 Example:
 <p align="center" width="100%">
@@ -16,8 +16,8 @@ Step 1. Download the aes.sh and clear-aes.sh and paste them into your ~/.config/
 
 Step 2. Edit your hyprland.conf file and paste this section.
 ```bash/zsh/fish
-bind = $mainMod, C, exec, /home/kai/.config/hypr/scripts/clear-aes.sh
-bind = $mainMod, R, exec, /home/kai/.config/hypr/scripts/aes.sh
+bind = $mainMod, C, exec, ~/.config/hypr/scripts/clear-aes.sh
+bind = $mainMod, R, exec, ~/.config/hypr/scripts/aes.sh
 
 # Matrix 
 windowrule {
@@ -56,13 +56,19 @@ windowrule {
 }
 
 ```
+
+Step 3. Edit your ~/.zshrc or ~/.bashrc or your config.fish and add these lines at the bottom to run these when your terminal is opened. You may replace these with your preferred applications.
+```text
+fastfetch
+scrntime
+```
 # Use
 Press $mainMod (windows key) with R to open the applications and $mainMod with C to close them.
 
 # Optional steps.
-Add this line to activate the script at startup.
+Add this line to your hyprland.conf to activate the script at startup.
 ```bash/zsh/fish
-exec-once = /home/kai/.config/hypr/scripts/aes.sh
+exec-once = ~/.config/hypr/scripts/aes.sh
 ```
 # Troubleshooting
 If hypraes is not working, it is likely due to
@@ -73,6 +79,6 @@ chmod +x ~/.config/hypr/scripts/aes.sh
 chmod +x ~/.config/hypr/scripts/clear-aes.sh
 ```
 # Support / Contact Me 🙏
-If you like this project and want to support it, simply pressing star and forking the respositorie is a lot to me.
+If you like this project and want to support it, simply pressing star and forking the respositorie is a lot to me. (Also follow me ╥﹏╥)
 If you have a question please just pull a request and I will try to respond asap.
 

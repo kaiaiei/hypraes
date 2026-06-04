@@ -3,7 +3,7 @@ Hypraes is a tool that allows you to run a aesthethic group of applications at o
 
 Example:
 <p align="center" width="100%">
-<video src="https://github.com/user-attachments/assets/e2e0051b-d96f-44e9-a94d-6fa4e2f49e1f" controls></video>
+<video src="https://github.com/user-attachments/assets/a39c686f-7870-499c-ab76-f8f730824364" controls></video>
 </p>
 
 
